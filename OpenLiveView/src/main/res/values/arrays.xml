@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="settings_updown_actions_name">
+        <item>@string/settings_updown_donothing</item>
+        <item>@string/settings_updown_changevolume</item>
+        <item>@string/settings_updown_blinkled</item>
+    </string-array>
+    <string-array name="settings_updown_actions_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="drawer_items">
+        <item>@string/notifications</item>
+        <item>@string/notes</item>
+    </string-array>
+
+</resources>

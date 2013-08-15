@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/advanced_settings">
+        <org.codechimp.util.SeekBarPreference
+                android:defaultValue="0"
+                android:dialogMessage=""
+                android:key="menu.initialmenuitemid"
+                android:max="255"
+                android:title="@string/prefs_menu_initialmenuitemid_title"/>
+        <org.codechimp.util.SeekBarPreference
+                android:defaultValue="0"
+                android:max="255"
+                android:key="menu.menuvibrationtime"
+                android:title="@string/prefs_menu_menuvibrationtime_title"/>
+
+        <EditTextPreference
+                android:defaultValue="true"
+                android:key="system.notificationfilter"
+                android:title="@string/prefs_menu_notificationfilter_title"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
