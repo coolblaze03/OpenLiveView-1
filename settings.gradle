@@ -1,1 +1,1 @@
-include ':OpenLiveView'
+include ':libraries:AppChooser', ':OpenLiveView'
